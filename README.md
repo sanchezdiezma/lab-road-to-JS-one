@@ -1,7 +1,6 @@
-## Lab #1: Figuras Geometricas
+## Taller #1: figuras geométricas
 
-- Definir las formulas
-- Implementar las formulas en JavaScript
-- Crear Funciones
-- Integrar JavaScript con HTML
-- Dar estilos con CSS
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmulas en JavaScript 
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML

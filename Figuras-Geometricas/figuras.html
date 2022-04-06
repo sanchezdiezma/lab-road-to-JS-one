@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figuras Geometricas</title>
+    <title>Math-Geo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./figuras.css">
-   
 </head>
 <body>
-    <header>
-        <h1>Figuras Geometricas</h1>
-        <p>Calculadora de Figuras Geometricas</p>
+    <header class="header-container">
+        <span>
+            <img src="./img/shapes.png"/>
+        </span>
+        <h1>Math-Geo</h1>
+        <p class="header-container__subtitle">Calculadora de Figuras Geométricas</p>
     </header>
+   
 
-    <section>
-        <h2>Calcula el area y el perimetro de un cuadrado</h2>
-        <form action="">
-            <label for="InputCuadrado">
+        
+    <section class="calc-container">
+        <h2 class="calc-container__sub">¡Vamos a calcular el área y el perímetro de un Tríangulo!</h2>
+        <form class="calc-container__form" action="">
+            <label for="InputCuadrado" />
                 Escribe cuanto mide cada lado de tu cuadrado:
                 </label>
                 <input id="InputCuadrado" type="number" />
@@ -29,6 +37,8 @@
                 </button>
             </form>
         </section>
+        
+
            
 
     <script src="./figuras.js"></script>
