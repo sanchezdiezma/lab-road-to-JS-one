@@ -92,6 +92,25 @@ function areaCirculo (radio) {
     return Math.PI * (radio * radio);
 }
 
+// Enlazando HTML con JS
+
+function calcularPerimetroCuadrado () {
+    const input = document.getElementById('InputCuadrado');
+    const value = input.value;
+    
+    const perimetro = perimetroCuadrado(value);
+    alert('El perimetro del cuadrado es: ' + perimetro + ' cm');
+}
+
+function calcularAreaCuadrado() {
+    const input = document.getElementById('InputCuadrado');
+    const value = input.value;
+
+    const perimetro = areaCuadrado(value);
+    alert('El Area del cuadrado es: ' + perimetro + ' cm');
+}
+
+
 
 
 
