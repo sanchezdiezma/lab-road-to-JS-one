@@ -4,41 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math-Geo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <title>Figuras Geometricas</title>
     <link rel="stylesheet" href="./figuras.css">
 </head>
 <body>
-    <header class="header-container">
-        <h1>Math-Geo</h1>
-        <p class="header-container__subtitle">Calculadora de Figuras Geométricas</p>
+    <header>
+        <h1>MathGeo</h1>
     </header>
-       
-   
-
-        
-    <section class="calc-container">
-        <h2 class="calc-container__sub">¡Vamos a calcular el área y el perímetro de un Cuadrado!</h2>
-        <form class="calc-container__form" action="">
-            <label for="InputCuadrado" />
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="">
                 Escribe cuanto mide cada lado de tu cuadrado:
-                </label>
-                <input id="InputCuadrado" type="number" />
-                <button type="button" onclick= "calcularPerimetroCuadrado()">
-                    Calcula el Perimetro
-                </button>
-                <button type="button" onclick= "calcularAreaCuadrado()">
-                    Calcula el Area 
-                </button>
-            </form>
-        </section>
-        
-
-           
-
-    <script src="./figuras.js"></script>
+            </label>
+                <input id="InputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcula el perimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcula el area</button>
+          
+        </form>
+    </section>
+   <script src="./figuras.js"></script> 
 </body>
 </html>
